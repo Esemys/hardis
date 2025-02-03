@@ -111,7 +111,7 @@ h2{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: rgb(5, 5, 87);
+    color: #4169e1;
 }
 
 @media screen and (max-width: 768px){
@@ -150,8 +150,9 @@ h2{
     }
     .side-menu a{
         width: 100%;
-        margin-top: 1em;
-        color: white;
+        margin-top: 1.3em;
+        margin-left: 1em;
+        color: #4169e1;
         text-transform: uppercase;
         font-size: large;
     }

@@ -395,9 +395,9 @@ footer{
     .side-menu a{
         width: 100%;
         margin-top: 1em;
-        color: rgb(25, 25, 77);
+        color: white;
         text-transform: uppercase;
-        font-size: medium;
+        font-size: large;
         justify-items: flex-end;
         align-items: flex-end;
     }

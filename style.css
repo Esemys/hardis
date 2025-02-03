@@ -113,8 +113,8 @@ nav a:hover{
     margin-top: 1em;
     padding: 0.3em 1em;
     border-radius: 9px;
-    border-color: rgb(28, 95, 221);
-    color: black;
+    border-color: rgb(25, 25, 77);
+    color: whitesmoke;
     
     font-weight: bolder;
     font-size: large;
@@ -125,7 +125,7 @@ nav a:hover{
     border-radius: 9px;
     border-color: rgb(28, 95, 221);
     text-transform: capitalize;
-    box-shadow: 1px 1px 10px rgba(249, 249, 250, 1);
+    box-shadow: 1px 1px 5px rgba(249, 249, 250, 1);
 }
 .btn2{
     background-color: transparent;

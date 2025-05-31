@@ -1,0 +1,39 @@
+/* Text Ad Component Styles */
+.text-ad-wrapper {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(3, 110, 110);
+  color: white;
+  padding: 1em;
+  z-index: -99;
+  width: 100%;
+}
+
+.text-ad {
+  display: flex;
+  font-weight: bolder;
+  font-size: large;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  flex-wrap: nowrap;
+  animation: move-horizontal 20s linear infinite;
+}
+
+.text-ad span {
+  white-space: nowrap;
+  padding-right: 80px; /* Add some spacing between the text */
+}
+
+
+@keyframes move-horizontal {
+  0% {
+    transform: translateX(0%);
+  }
+  50%{
+    transform: translateX(-50%);
+  }
+  
+  100% {
+    transform: translateX(-100%);
+  }
+}

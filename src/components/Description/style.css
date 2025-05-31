@@ -1,0 +1,45 @@
+
+:root {
+ color-scheme: light dark;
+}
+
+
+
+.description{
+	top: 10vh;
+    padding: 19px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: light-dark(#d5e3f5, #090233);
+    color: light-dark(#030569, #b4bad3);
+    
+
+}
+.description h2{ 
+    text-transform: uppercase;
+    color: rgb(4, 68, 223);
+    align-self: center;
+    text-align: center;
+}
+.description em{
+    align-self: center;
+    text-decoration: underline;
+}
+.card{
+    margin-bottom: 3em;
+    animation: fadeInUp 0.8s ease-out alternate-reverse;
+
+}
+.card h3{
+    text-transform: uppercase;
+
+}
+.wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2em 0;
+}
+
+

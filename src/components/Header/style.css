@@ -1,0 +1,63 @@
+.header-container{
+	background-color: black;
+	top: calc(100vh - 10vh);
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://cdn.pixabay.com/photo/2023/08/02/02/46/woman-8164186_640.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    overflow-y: hidden;
+
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1000;
+    color: whitesmoke;
+    animation: fade-in 2s;
+    
+}
+
+header h1{
+    font-family: lato;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    line-height: 1.5;
+}
+header h4{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.buttons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2em;
+	gap: 10px;
+    font-family: 'Times New Roman', Times;
+}
+.btn1{
+    padding: 0.5em 1.4em;
+    border-radius: 9px;
+    color: rgb(210, 212, 241);
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: large;
+    border: solid transparent;
+    background-color: rgb(68, 68, 184);
+    cursor: pointer;
+    margin-top: .3em;
+    
+}
+.btn1:hover{
+    transform: none;
+}
+

@@ -1,0 +1,74 @@
+:root{
+	color-scheme: light dark;
+}
+
+.about-products-card,
+.about-founder-card,
+.about-achievements-card,
+.about-history-card {
+  background-color: light-dark(#f0f6ff, #181c2a);
+  color: light-dark(#1a237e, #e3e9ff);
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.12);
+  padding: 1em 2em;
+  margin: 1em auto;
+  max-width: 350px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  transition: box-shadow 0.2s;
+}
+
+.about-products-card:hover,
+.about-founder-card:hover,
+.about-achievements-card:hover,
+.about-history-card:hover {
+  box-shadow: 0 8px 24px rgba(7, 13, 100, 0.18);
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: auto;
+  
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.10);
+}
+.card-container{
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+	margin: 5em;
+}
+.cards{
+  background-color: light-dark(#d5e3f5, #090233);
+  color: light-dark(#030569, #b4bad3);
+  box-shadow: 0 2px 8px rgba(69, 13, 223, 0.4);
+  padding: 1em 4rem;
+  max-width: 300px;
+  margin: 0 1em;
+  border-radius: 19px;
+  justify-content: center;
+  font-family: 'Segoe UI';
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  background-color: light-dark(#7c9beb, #2305e0);
+  color: light-dark(#3945e6, #6ec6f8);
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: light-dark(#d5e3f5, #090233);
+  color: light-dark(#030569, #b4bad3);
+  margin: 5px;
+  border-radius: 10%;
+  text-align: center;
+}
+
